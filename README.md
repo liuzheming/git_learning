@@ -96,6 +96,9 @@ git branch -D branch_name_to_delete  强制删除分支
 6.4 切换分支
 git checkout branch_name            切换分支
 
+6.5 重命名分支
+git branch -m old_branch new_branch 
+
 ```
 
 7. 整理commit
