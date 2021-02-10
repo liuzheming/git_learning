@@ -156,4 +156,7 @@ git merge origin master # 将远程的master分支merge到当前分支，结束�
 ```
 
 
+### 三、多人协作使用Git的注意事项
 
+11. commit一旦push到云端，尽量不要再去修改或者整理commit了，反过来说，commit在push之前，应当先整理好
+12. push -f 太过危险，是禁止的行为，可以通过设置提交规则，来禁止push -f
