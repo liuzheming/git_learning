@@ -106,7 +106,7 @@ git branch -m old_branch new_branch
 
 7.1
 修改最近一次commit的message
-git commit --amend
+git commit --amend  # 如果commit已经push到云端,使用--amend修改commit后，需要先pull一次，才能将修改后的内容推送到云端
 
 7.2
 修改历史commit的message
