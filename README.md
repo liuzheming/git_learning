@@ -130,7 +130,7 @@ git rebase -i xxx # 打开交互文件后，先将期望合并的，不连续的
 git diff --cached 比较暂存区与HEAD所含文件的区别
 8.2 修改内容，未提交到暂存区，比较工作区与暂存区的差异
 git diff          比较暂存区与工作区的区别
-8.3 git diff branchA branchB  对比不同分支的代码,分支可以使local的,也可以是remote的
+8.3 git diff [branchA] [branchB] [fileName]  对比不同分支的代码,分支可以使local的,也可以是remote的
 8.4 git diff --no-index fileA fileB 对比文件系统内的两个文件的差异
 
 ```
