@@ -139,7 +139,7 @@ git diff          比较暂存区与工作区的区别
 
 ```
 9.1 当前工作区实现了新方案，但是老方案已经提交到了暂存区，怎么办？让暂存区文件恢复成和HEAD一样
-git stage                        # 保存工作区的修改
+git stash                        # 保存工作区的修改
 git reset HEAD [-- file_name]    # 将暂存区的修改恢复到HEAD
 git diff --cached                # 对比暂存区文件和HEAD，查看是否已经恢复
 
